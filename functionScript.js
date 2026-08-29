@@ -7,30 +7,16 @@
 // check(7) → "Odd"
 // check(0) → "Even"
 
-// const check=(number)=>{
-// if (number%2===0)
-//     {
-//     console.log("The Even number is ",number)
-// }
-// else
-// {
-//     console.log("The Odd number is ",number)
-// }
-// };
-// check(4)
-// check(7)
-// check(0)
-
-//with return
+// answer
 
 // const check=(number)=>{
 // if (number%2===0)
 //     {
-//     return"The Even number is ",number
+//     return "Even"
 // }
 // else
 // {
-//     return "The Odd number is ",number
+//     return "Odd "
 // }
 // };
 // const result1=check(4)
@@ -59,7 +45,7 @@
 // {
 
 //     if (marks<0 || marks>100){
-//         console.log("invalid marks",marks)
+//         console.log("invalid marks")
 //         return null
 //         }
 //     else if (marks>= 50){
@@ -72,7 +58,11 @@
 
 // }
 // let result1= evaluateResult(75)
-// console.log(result1)
+// console.log(result1);
+// let result2=evaluateResult(40)
+// console.log(result2);
+// let result3=evaluateResult(120)
+// console.log(result3);
 
 // 3) Maximum Finder — Largest of Three Numbers
 // Requirement
@@ -86,13 +76,13 @@
 // let findMax=(a,b,c)=>
 //     {
 //     if (a>=b && a>=c){
-//         console.log("largenumber",a);}
+//         console.log(a);}
 //     else if (b>=a&& b>=c)
 //     {
-//       console.log("largenumber",b)
+//       console.log(b)
 //     }
 //     else {
-//         console.log("largenumber",c)
+//         console.log(c)
 //     }
 
 //     }
@@ -115,8 +105,10 @@
 //  let sum=0
 //  for(let i=1;i<=n; i++){
 //     sum=sum+i
-//     console.log("Sum is",sum)
+
 //  }
+//  console.log(sum)
+
 // }
 // sumToN(5)
 // sumToN(10)
@@ -157,7 +149,8 @@
 //         count = count + 1;
 
 //     }
-// console.log("count is", count);
+// console.log( count);
+
 // }
 
 // countDigits(1234);
@@ -180,7 +173,7 @@
 //         reverse=(reverse*10+lastDigitRemove);
 //         number=(number-lastDigitRemove)/10
 //     }
-//     console.log("Reverse number is", reverse);
+//     console.log(reverse);
 // }
 // reverseNumber(1234)
 // reverseNumber(500)
@@ -206,7 +199,7 @@
 //         number = number - 1;
 //     }
 
-//     console.log("Factorial is", factorial);
+//     console.log(factorial);
 // }
 
 // findFactorial(3);
@@ -228,10 +221,10 @@
 // isPrime(2) → true
 
 // function isPrime(number) {
-//
+
 //     if (number <= 1) {
-//         console.log("notprime");
-//         return;
+
+//         return "False";
 //     }
 
 //     let divisor = 2;
@@ -246,15 +239,20 @@
 //     }
 
 //     if (pointer === 0) {
-//         console.log(number," Number is Prime number");
+//        return "true";
 //     } else {
-//         console.log(number,"number is not Prime number");
+//         return "False";
 //     }
 // }
 
-// isPrime(7);
-// isPrime(10);
-// isPrime(2);
+// let result1=isPrime(7);
+// console.log(result1);
+
+// let result2=isPrime(10);
+// console.log(result2);
+
+// let result3=isPrime(2);
+// console.log(result3);
 
 // 10) Pattern Builder — Star Triangle
 // Requirement
